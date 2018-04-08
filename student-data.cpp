@@ -92,7 +92,7 @@ ostream& operator<<(ostream& out, Student s[])
     my_file << "\n====================" << '\n';
     for (int i = 0; i < 5; i++) {
       if (s[j].marks[i]<33) {
-          my_file<<"\n Marks of module "<<i+1<<" : "<<s[j].marks[i]<<"\tF";
+          my_file<<"\n Marks of module "<<i+1<<" : "<<s[j].marks[i]<<"\t\tF";
           // s[j].grade = 'F';
       }else{
         my_file<<"\n Marks of module "<<i+1<<" : "<<s[j].marks[i];
